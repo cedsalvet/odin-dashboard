@@ -1,0 +1,76 @@
+#announcementsdetail{
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: #ECFEFF;
+    box-shadow: 5px 5px 10px #CCC;
+}
+#announcementsdetail hr{
+    width: 60%;
+    border: none;
+    margin: 20px auto;
+    border-bottom: 1px solid black ;
+}
+#announcementsdetail span{
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#announcements h1:nth-child(3){
+    color: red;
+}
+
+#trendinggrid{
+    padding: 20px 10px 10px 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #ECFEFF;
+    box-shadow: 5px 5px 10px #CCC;
+    display: grid;
+}
+#trendinggrid .follow{
+    height: 80px;
+    position: relative;
+}
+#trendinggrid span.user{
+    display: block;
+    font-size: 0.9rem;
+    padding-left: 80px;
+}
+#trendinggrid span.quote{
+    padding-left: 80px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+#trendinggrid div.userpic{
+    position: absolute;
+    top: -25px;
+    left: -10px;
+    height: 120px;
+    width: 100px;
+    background: url("./../images/profiles.png");
+}
+#trendinggrid div.userpic#kendall{
+    scale: 0.5;
+    background-position: -120px -50px;
+}
+#trendinggrid div.userpic#morgan{
+    scale: 0.5;
+    background-position: -20px -50px;
+}
+#trendinggrid div.userpic#tegan{
+    scale: 0.5;
+    background-position: -220px -50px;
+    
+}
+#trendinggrid div.userpic#alex{
+    scale: 0.5;
+    background-position: -320px -50px;
+}

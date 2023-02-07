@@ -16,6 +16,7 @@
 }
 #projectgrid div p.title {
     font-weight: 400;
+    margin-bottom: 5px;
 }
 #projectgrid div p {
     font-size: 0.9rem;
