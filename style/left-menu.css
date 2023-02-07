@@ -1,0 +1,36 @@
+#leftmenu{
+    background-color: #0891B2;
+    padding: 10px 15px;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+}
+#title p {
+    display: inline;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+#title svg{
+    width: 48px;
+    height: 48px;
+}
+.nav{
+   padding:20px 0; 
+}
+.nav li {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+}
+.nav li a {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav li svg{
+    margin-right: 10px;
+}

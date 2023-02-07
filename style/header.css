@@ -1,0 +1,70 @@
+#header{
+    grid-column: 1 / 3;
+    background-color: #FFF;
+    padding-left: 20px;
+    box-shadow: 0 15px 20px #BBB;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 70px 80px ;
+}
+#header #search{
+    display: flex;
+    align-items: center;
+}
+#header #search input{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #CCC;
+    background-color: #CCC;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+#header #profile{
+    display: flex;
+    align-items: center;
+}
+#header #profile #profiluser{
+    font-size : 0.8rem;
+}
+#header #profiluserbig:before{
+    content: 'Hi there,';
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    display: block;
+}
+div#user{
+    display: flex;
+}
+div#profilpicture{
+    height: 120px;
+    width: 100px;
+    background: url("./../images/profiles.png");
+    background-position: -20px -50px;
+    scale: 0.5;
+}
+div#profilpicturebig{
+    height: 120px;
+    width: 100px;
+    background: url("./../images/profiles.png");
+    background-position: -20px -50px;
+    scale: 0.8;
+    transform: translateY(-50px);
+}
+div#action a{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #0891B2;
+    border: none;
+    width: 80px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
