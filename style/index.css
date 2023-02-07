@@ -19,14 +19,15 @@ div#main{
     grid-template-columns: minmax(150px, 1fr) 7fr;
 }
 #maincontent{
-    background-color: #CFFAFE;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 150px auto ;
 }
 #projects{
+    padding-top: 30px;
+    padding-left: 20px;
     grid-column-start: 1;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
 }
 #announcements{
     grid-column-start: 2;
